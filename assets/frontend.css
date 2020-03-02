@@ -1,0 +1,146 @@
+div.product form.variations_form div.quantity{
+	width: 150px;
+	display: inline-block;
+}
+div.product form.variations_form .variations_button{
+	display: flex;
+}
+div.product form.variations_form .variations_button p{
+	float: left;
+	line-height: 38px;
+	margin:0;
+}
+div.product form.variations_form div.quantity input.qty{
+	max-width: 150px;
+}
+div.product form.variations_form div.bottom{
+	width: 100%;
+}
+div.product form.variations_form div.bottom .panel{
+    margin: 14px 0 0 0;
+    display: flex;
+}
+div.product form.variations_form div.bottom .panel .panel-left{
+	width: 30%;
+    float: left;
+    background: #213386;
+    display: flex;
+    align-items: center;
+}
+div.product form.variations_form div.bottom .panel .panel-left .flex-center{
+	width: 100%;
+    text-align: center;
+}
+div.product form.variations_form div.bottom .panel .panel-left .flex-center .price{ 
+	float: right;
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    background: #1c3488;
+    line-height: 25px;
+    padding:0;
+    text-align: center;
+}
+div.product form.variations_form div.bottom .panel .panel-right{
+	width: 70%;
+    float: left;
+    border-bottom:1px solid #213386;
+    border-right:1px solid #213386;
+}
+div.product form.variations_form div.bottom .panel .panel-right .button{
+	float: left;
+    display: block;
+    color: #ffffff;
+    width: 100%;
+    font-size: 13px;
+    background: #c10011;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 250ms ease all;
+}
+div.product form.variations_form div.bottom .panel .panel-right .print{
+    margin: 0px 0;
+    text-align: center;
+    width: 100%;
+    background: #e8e9ee;
+    color: #505050;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+div.product form.variations_form div.bottom .calc{
+	padding:15px;
+	background:#e8e9ee;
+	display: none;
+}
+div.product form.variations_form div.bottom .calc select{
+	background: #fff;
+	margin: 10px 0;
+}
+div.product form.variations_form div.bottom .calc .select-wrapper::after{
+	z-index: 100;
+	top:19px;
+}
+#calculate-button, div.product form.variations_form div.bottom .result button{
+	width: 100%;
+	margin:10px 0;
+	text-align:center;
+}
+
+div.product form.variations_form div.bottom .result{
+	display: none;
+}
+div.product form.variations_form div.bottom .result h2{
+    color: #505050;
+    margin: 0;
+    padding: 10px 0 5px 0;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    border-bottom: 1px dotted #505050;
+}
+div.product form.variations_form div.bottom .result table{
+	margin: 0;
+	padding: 6px 0;
+	width: 100%;
+	border:0;
+}
+div.product form.variations_form div.bottom .result table tr td{
+	font-size: 14px;
+    font-weight: 400;
+    padding: 2px 2px;
+    line-height: 20px;
+    color: #505050;
+    border:0;
+}
+div.product form.variations_form div.bottom .result table tr td:nth-child(1){
+	font-weight: 600;
+}
+div.product form.variations_form div.bottom .result table tr td:nth-child(2) {
+    text-align: right;
+}
+
+div.product form.variations_form div.bottom .result table tr td.text-right {
+    text-align: right;
+}
+div.product form.variations_form div.bottom .result table tr.total td {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 4px 2px 2px;
+}
+div.product form.variations_form div.bottom .result .ranges h3{
+	color: #505050;
+    margin: 0;
+    padding: 10px 0 3px 0;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border-bottom: 1px dotted #505050;
+}
+    
